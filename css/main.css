@@ -244,7 +244,7 @@ main p{max-width:72ch}
 .site-footer p{margin-bottom:8px;max-width:none}
 .site-footer .foot-logo{display:block;margin-bottom:14px}
 .site-footer .foot-logo img{height:44px;width:auto}
-.site-footer address{font-style:normal;margin-bottom:8px}
+.site-footer address,.site-footer .foot-serve{font-style:normal;margin-bottom:8px}
 .foot-phone{color:#fff!important;font-weight:800;font-size:17px}
 .foot-bottom{border-top:1px solid #38414F;margin-top:34px;padding-top:20px;font-size:13.5px;color:#9AA3B2}
 /* sticky call bar (mobile) and floating button (desktop) */
@@ -300,3 +300,5 @@ body{padding-bottom:58px}
 .home-hero .hero-bg{object-position:right center}
 .home-hero:before{background:linear-gradient(90deg,rgba(30,35,44,.93) 0%,rgba(30,35,44,.84) 34%,rgba(30,35,44,.28) 62%,rgba(30,35,44,.06) 100%)}
 @media(max-width:900px){.home-hero{padding:56px 0 50px}.home-hero .hero-copy{max-width:none}.home-hero:before{background:linear-gradient(180deg,rgba(30,35,44,.9),rgba(30,35,44,.74))}}
+
+.neigh>p{margin:0 0 14px;color:var(--muted,#4a5568)}
